@@ -12,7 +12,6 @@ while True:
         Brightness = random.triangular(0.2, 0.4)
         cp.pixels.brightness = Brightness
         cp.pixels.fill((215, 235, 8))
-        cp.pixels.fill((0, 0, 0))
         time.sleep(0.010)
         
 
